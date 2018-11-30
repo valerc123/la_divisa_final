@@ -160,6 +160,22 @@ footer.uk-light, footer.uk-light .tw-meta, footer.uk-light a {
 .val-section .tw-box .p-spam{
     margin: 5px 10%;
   }  
+  .four-items {
+    position: relative;
+    padding-top: 20px; 
+}
+.tw-box .p-restaurant{
+    text-align: left;
+}
+.tw-heading h3 + .sub{
+    color: #8c201d;
+}
+.tw-heading .sub{
+    color: #8c201d;
+}
+.tw-box sub{
+    color: #8c201d;
+}
 
     
 
