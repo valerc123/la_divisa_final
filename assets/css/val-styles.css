@@ -7,6 +7,9 @@
 .uk-grid {
     justify-content: flex-end;
 }
+.foo {
+    justify-content: space-between;
+}
 .val-topbar i {
     line-height: 0px;
     left: 80px;
