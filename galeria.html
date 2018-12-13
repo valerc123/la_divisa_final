@@ -3,24 +3,24 @@
 
 <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <link rel="shortcut icon" href="assets/images/favicon.png">
 
-    <title>Actividades - La Divisa</title>
+    <title>Galeria - La Divisa</title>
 
     <link href="assets/css/uikit.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/uikit-width-ex.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/owl.carousel.min.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="assets/css/animations.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/theme.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/responsive-val.css" rel="stylesheet" type="text/css" media="all" />
     <link href="assets/css/val-styles.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700%7CLora:400,400i%7CShadows+Into+Light:400"
         rel="stylesheet" />
+     <link href="assets/css/animations.css" rel="stylesheet" type="text/css" media="all" />
 
 </head>
 
@@ -63,14 +63,15 @@
                 </div>
             </div>
             <div class="uk-navbar-right">
+
                 <ul class="tw-main-menu uk-visible@m">
                     <li class="menu-item menu-item-has-children">
                         <a href="index.html">INICIO</a>
                     </li>
                     <li class="menu-item">
-                        <a href="habitaciones.html">ALOJAMIENTO</a>
-
-                    </li>
+                            <a href="habitaciones.html">ALOJAMIENTO</a>
+    
+                        </li>
                     <li class="menu-item menu-item-has-children">
                         <a href="actividades.html">ACTIVIDADES</a>
 
@@ -81,7 +82,9 @@
                     </li>
                     <li class="menu-item menu-item-has-children">
                         <a href="ubicacion.html">CÓMO LLEGAR</a>
-
+                    </li>
+                    <li class="menu-item menu-item-has-children">
+                        <a href="galeria.html">GALERIA</a>
                     </li>
                     <li class="menu-item menu-item-has-children">
                         <a href="contact.html">CONTACTO</a>
@@ -106,7 +109,7 @@
                     </form>
                 </div>
             </div>
-            <div id="mobile-menu-modal" class="uk-modal-full" data-uk-modal>
+           <div id="mobile-menu-modal" class="uk-modal-full" data-uk-modal>
                 <div class="uk-modal-dialog">
                     <button class="uk-modal-close-full" type="button" data-uk-close></button>
                     <div class="uk-light uk-height-viewport tw-mobile-modal uk-flex uk-flex-middle uk-flex-center"
@@ -116,25 +119,25 @@
                                 <a href="index.html">INICIO</a>
                             </li>
                             <li class="uk-single ">
-                                <a href="habitaciones.html">ALOJAMIENTO</a>
-                            </li>
+                                    <a href="habitaciones.html">ALOJAMIENTO</a>
+                                </li>
                             <li class="uk-single ">
                                 <a href="actividades.html">ACTIVIDADES</a>
+                             
                             </li>
                             <li class="uk-single ">
                                 <a href="restaurant.html">COMIDA Y BAR</a>
                             </li>
                             <li class="uk-single ">
                                 <a href="ubicacion.html">CÓMO LLEGAR</a>
-
+                            </li>
+                            <li class="uk-single ">
+                                <a href="galeria.html">GALERIA</a>
                             </li>
                             <li class="uk-single">
                                 <a href="contact.html">CONTACTO</a>
                             </li>
                         </ul>
-
-
-                       
                         <div class="tw-socials tw-socials-minimal">
                                 <a href="https://www.facebook.com/La-Divisa-Finca-Hotel-349538235792819/?ref=br_rs"><i
                                         class="ion-social-facebook"></i></a>
@@ -142,88 +145,150 @@
                                         class="ion-social-whatsapp"></i></a>
                                 <a href="https://www.instagram.com/ladivisafincahotel/"><i class="ion-social-instagram"></i></a>
                             </div>
-
                     </div>
-
                 </div>
             </div>
         </nav>
 
     </div>
-
     <section class="tw-slider tw-slider-fullscreen uk-light" data-uk-height-viewport="offset-top: true">
-        <!-- <div class="uk-inline owl-carousel owl-theme" data-autoplay="true" data-autoplay-timeout="4000"
-            data-autoplay-hoverpause="true"> -->
-            <div class="slider-item" data-overlay="0.2" style="background-color: #151515; background-image: url(fotos/workershouse1_conv.jpg);"
+        <div class="owl-carousel owl-theme" data-autoplay="true" data-autoplay-timeout="4000" data-autoplay-hoverpause="true">
+            <div class="slider-item" data-overlay="0.2" style="background-color: #151515; background-image: url(fotos/piscina_conv.jpg);"
                 data-uk-height-viewport="offset-top: true">
-
-                <div class="uk-position-bottom tw-element uk-text-center full tw-heading" data-uk-scrollspy="target: > *; cls:uk-animation-slide-bottom-medium; delay: 400;"
-                    style="padding: 2%;
-                                        background: rgba(191, 84, 32,.6);
-                                        text-align: center;">
-
-                    <div class="uk-light">
-                        <h3>ACTIVIDADES</h3>
-                        <p>En nuestro hotel, contamos con actividades enfocadas al conocimiento de la región, caminatas
-                            ecológicas, recorridos del café que te permitirán a ti y tu familia disfrutar
-                            de una estadía inolvidable.</p>
-
+                <div class="slider-content">
+                    <div class="tw-element uk-text-center full tw-heading" data-uk-scrollspy="target: > *; cls:uk-animation-slide-bottom-medium; delay: 400;">
+                        <h2>GALERIA</h2>
                     </div>
                 </div>
-
             </div>
-        <!-- </div> -->
-    </section>
-
-    <section class="val-section">
-        <div class="uk-container uk-column-1-2@s">
-            <div class="img-colum">
-                <div class="tw-element tw-box" >
-                    <img src="fotos/vista1_conv.jpg" alt="Caminata Ecológica" title="Caminata Ecológica" />
-                    <h4>
-                        Caminata Ecológica
-                    </h4>
-                    <p class="description">
-                        Disfruta de la vista de 30 y el cañón del rio, camina por nuestros senderos para descubrir las
-                        diferentes especies de aves, fauna y flora de nuestra región.
-                    </p>
-                    <!-- <a href="#" class="uk-button uk-button-default uk-button-small uk-button-radius tw-hover"><span
-                                                class="tw-hover-inner"><span>LEER MÁS</span><i class="ion-ios-arrow-thin-right"></i></span></a> -->
-                </div>
+            <div class="slider-item" data-overlay="0.2" style="background-color: #151515; background-image: url(fotos/masterroom3_conv.jpg);"
+                data-uk-height-viewport="offset-top: true">
             </div>
-
-            <div class="img-colum">
-                <div class="tw-element tw-box" >
-                    <img src="fotos/workershouse2_conv.jpg" alt="Tour del Café" title="Tour del Café" />
-                    <h4>
-                        Tour del Café
-                    </h4>
-                    <p class="description">
-                        Se comienza con una caminata ecológica guiada, rodeada de hermosa naturaleza como el cedro
-                        rosado de la india, árbol de café, orquídeas, bromelias y exóticas aves del Suroeste.
-                    </p>
-                </div>
+            <div class="slider-item" data-overlay="0.2" style="background-color: #151515; background-image: url(fotos/sala4_conv.jpg);"
+                data-uk-height-viewport="offset-top: true">
             </div>
-
-            <!-- <div class="img-colum">
-                <div class="tw-element tw-box" >
-                    <img src="fotos/cabalgata_conv.jpg" alt="Cabalgata" title="Cabalgata" />
-                    <h4>
-                        Cabalgata
-                    </h4>
-                    <p class="description">
-                        Vive una experiencia única con nuestro tour a caballo, donde se recorren los paisajes y se
-                        disfruta del avistamiento de fauna, flora y aves. Te sorprenderás con los colores.
-                    </p>
-                </div>
-            </div> -->
+         
         </div>
     </section>
-    <br>
-
-    <section class="tw-section">
-        <img src="fotos/piscina5_conv.jpg" alt="" uk-img>
+    <section class="uk-section gal uk-padding-remove-bottom">
+        <div class="uk-padding-small">
+            <div class="tw-element tw-portfolio tw-isotope-container" data-isotope-item=".portfolio-item">
+                <div class="tw-portfolio-filter uk-container uk-text-uppercase">
+                    <ul class="uk-list">
+                        <li class="is-checked"><span data-filter="*">Show All</span></li>
+                        <li class=""><span data-filter=".category-lifestyle">Master</span></li>
+                        <li class=""><span data-filter=".category-nature">Zona humeda</span></li>
+                        <li class=""><span data-filter=".category-freestyle">House</span></li>
+                        <li class=""><span data-filter=".category-photography">Worker</span></li>
+                    </ul>
+                </div>
+                <div class="isotope-container tw-photography uk-grid-xsmall uk-child-width-auto uk-grid" data-uk-grid="" data-uk-scrollspy="target: > .portfolio-item; cls:uk-animation-slide-bottom-medium; delay: 400;" style="background-color: rgb(240, 240, 240); position: relative; height: 1640px;">
+    
+                    <div class="portfolio-item category-freestyle uk-first-column uk-scrollspy-inview uk-animation-slide-bottom-medium tw-scrollspy-fixer" style="position: absolute; left: 0%; top: 0px;">
+                        <div class="portfolio-media">
+                            <a href="#" class="tw-image-hover uk-light">
+                            <img src="fotos/house1.jpg" alt="">
+                        </a>
+                        </div>
+                    </div>
+    
+                    <div class="portfolio-item category-nature category-lifestyle uk-scrollspy-inview uk-animation-slide-bottom-medium tw-scrollspy-fixer" style="position: absolute; left: 39.7878%; top: 0px;">
+                        <div class="portfolio-media">
+                            <a href="#" class="tw-image-hover uk-light">
+                            <img src="fotos/master_room2.jpg" alt="">
+                        </a>
+                        </div>
+                    </div>
+    
+                    <div class="portfolio-item category-photography category-freestyle uk-scrollspy-inview uk-animation-slide-bottom-medium tw-scrollspy-fixer" style="position: absolute; left: 64.7215%; top: 0px;">
+                        <div class="portfolio-media">
+                            <a href="#" class="tw-image-hover uk-light">
+                            <img src="fotos/house14.jpg" alt="">
+                        </a>
+                        </div>
+                    </div>
+    
+                    <div class="portfolio-item category-nature category-lifestyle uk-grid-margin uk-first-column uk-scrollspy-inview uk-animation-slide-bottom-medium tw-scrollspy-fixer" style="position: absolute; left: 0%; top: 410px;">
+                        <div class="portfolio-media">
+                            <a href="#" class="tw-image-hover uk-light">
+                            <img src="fotos/master_room3.jpg" alt="">
+                        </a>
+                        </div>
+                    </div>
+    
+                    <div class="portfolio-item category-freestyle uk-grid-margin uk-scrollspy-inview uk-animation-slide-bottom-medium tw-scrollspy-fixer" style="position: absolute; left: 34.4828%; top: 410px;">
+                        <div class="portfolio-media">
+                            <a href="#" class="tw-image-hover uk-light">
+                            <img src="fotos/house6.jpg" alt="">
+                        </a>
+                        </div>
+                    </div>
+    
+                    <div class="portfolio-item category-photography uk-grid-margin uk-scrollspy-inview uk-animation-slide-bottom-medium tw-scrollspy-fixer" style="position: absolute; left: 71.0875%; top: 410px;">
+                        <div class="portfolio-media">
+                            <a href="#" class="tw-image-hover uk-light">
+                            <img src="fotos/patiointerno.jpg" alt="">
+                        </a>
+                        </div>
+                    </div>
+    
+                    <div class="portfolio-item category-photography uk-grid-margin uk-first-column uk-scrollspy-inview uk-animation-slide-bottom-medium tw-scrollspy-fixer" style="position: absolute; left: 0%; top: 820px;">
+                        <div class="portfolio-media">
+                            <a href="#" class="tw-image-hover uk-light">
+                            <img src="fotos/piscina3.jpg" alt="">
+                        </a>
+                        </div>
+                    </div>
+    
+                    <div class="portfolio-item category-nature uk-grid-margin uk-scrollspy-inview uk-animation-slide-bottom-medium tw-scrollspy-fixer" style="position: absolute; left: 37.6658%; top: 820px;">
+                        <div class="portfolio-media">
+                            <a href="#" class="tw-image-hover uk-light">
+                            <img src="fotos/sala4.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+    
+                    <div class="portfolio-item category-photography uk-grid-margin uk-scrollspy-inview uk-animation-slide-bottom-medium tw-scrollspy-fixer" style="position: absolute; left: 61.5385%; top: 820px;">
+                        <div class="portfolio-media">
+                            <a href="#" class="tw-image-hover uk-light">
+                            <img src="fotos/workershouse1.jpg" alt="">
+                        </a>
+                        </div>
+                    </div>
+    
+                    <div class="portfolio-item category-nature uk-grid-margin uk-first-column uk-scrollspy-inview uk-animation-slide-bottom-medium tw-scrollspy-fixer" style="position: absolute; left: 0%; top: 1230px;">
+                        <div class="portfolio-media">
+                            <a href="#" class="tw-image-hover uk-light">
+                            <img src="fotos/piscina5.jpg" alt="">
+                        </a>
+                        </div>
+                    </div>
+    
+                    <div class="portfolio-item category-photography uk-grid-margin uk-scrollspy-inview uk-animation-slide-bottom-medium tw-scrollspy-fixer" style="position: absolute; left: 32.3607%; top: 1230px;">
+                        <div class="portfolio-media">
+                            <a href="#" class="tw-image-hover uk-light">
+                            <img src="fotos/salapool.jpg" alt="">
+                        </a>
+                        </div>
+                    </div>
+    
+                    <div class="portfolio-item category-freestyle uk-grid-margin uk-scrollspy-inview uk-animation-slide-bottom-medium tw-scrollspy-fixer" style="position: absolute; left: 68.9655%; top: 1230px;">
+                        <div class="portfolio-media">
+                            <a href="#" class="tw-image-hover uk-light">
+                            <img src="fotos/house4.jpg" alt="">
+                        </a>
+                        </div>
+                    </div>
+    
+                    <div class="grid-sizer uk-grid-margin"></div>
+    
+                </div>
+            </div>
+        </div>
     </section>
+
+   
+
     <footer class="uk-section uk-padding-remove-vertical uk-light" style="background-color: #bf5420;">
 
             <div class="bottom-area">
@@ -252,31 +317,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!--Falta esta info-->
-                        <!-- <div>
-                            <div class="uk-padding-left">
-                                <div class="widget widget_recent_entries">
-                                    <h3 class="widget-title">
-                                        <span>TITULO</span>
-                                    </h3>
-                                    <ul>
-                                        <li>
-                                            <a href="#">Class aptent taciti</a><br>
-                                            <span class="tw-meta">January 22, 2017</span>
-                                        </li>
-                                        <li>
-                                            <a href="#">Class aptent taciti</a><br>
-                                            <span class="tw-meta">January 22, 2017</span>
-                                        </li>
-                                        <li>
-                                            <a href="#">Class aptent taciti</a><br>
-                                            <span class="tw-meta">January 22, 2017</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div> -->
-    
                         <div class="widget">
                             <div class="uk-padding-left">
                                 <h3 class="widget-title">
@@ -353,12 +393,12 @@
             </div>
     
         </footer>
-
-
+    <script type="text/javascript" id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vflxGrywa/www-widgetapi.js" async=""></script>
     <script src="assets/js/jquery-3.2.0.min.js"></script>
     <script src="assets/js/jquery.easypiechart.min.js"></script>
     <script src="assets/js/uikit.min.js"></script>
     <script src="assets/js/.min.js"></script>
+    <script src="assets/js/uikit-icons.min.js"></script>
     <script src="assets/js/isotope.pkgd.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/theme.js"></script>

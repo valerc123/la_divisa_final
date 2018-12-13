@@ -1,5 +1,8 @@
-*{
-    font-size: 12px;
+.gal{
+    margin: 25px 0px;
+}
+.menu-redes {
+    margin-right: 1em;
 }
 .uk-light .tw-box.layout-4 i[class^='ion'] {
     color: #f9e41e;
