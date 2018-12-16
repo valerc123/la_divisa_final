@@ -1,5 +1,22 @@
+body, html {
+    height: 100%;
+  }
+  .parallax {
+    /* The image used */
+    background-image: url('fotos/house1_conv.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .gal{
     margin: 25px 0px;
+    text-align: justify;
 }
 .menu-redes {
     margin-right: 1em;
